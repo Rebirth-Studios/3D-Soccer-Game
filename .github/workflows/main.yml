@@ -24,7 +24,7 @@ jobs:
       - name: Run tests
         uses: game-ci/unity-test-runner@v3
         env:
-          UNITY_LICENSE: ${{ secret.UNITY_LICENSE }}
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
