@@ -4,7 +4,7 @@ on: [push]
 jobs:
   build:
     name: Build Soccer Game
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps: 
       # Checkout
       - name: Checkout repoistory
